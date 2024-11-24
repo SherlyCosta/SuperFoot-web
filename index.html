@@ -4,68 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Football Fanatics</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            color: #333;
+        /* Header styles */
+        /* header {
+            padding: 20px 0;
+            text-align: center;
+        } */
+
+        /* Navigation Bar */
+        /* nav {
+            background-color: #00509E;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        } */
+
+        /* nav ul {
+            list-style-type: none;
             margin: 0;
             padding: 0;
+            display: flex;
+            justify-content: center;
         }
-        header {
-            background-color: #b1e896;
-            /* background-color: #3A861E; */
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            display: block;
             color: white;
             text-align: center;
-            padding: 1em 0;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.2s;
         }
-        main {
-            max-width: 1200px;
-            margin: 20px auto;
+
+        nav ul li a:hover {
+            background-color: #003366;
+            transform: scale(1.05);
+        } */
+
+        /* Main content styles */
+        /* main {
             padding: 20px;
-            background-color: white;
+            background: #ffffff;
+            margin: 20px;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-        }
-        h1, h2 {
-            color:#3A861E
-            /* color: #C3DA57; */
-        }
-        .image-gallery {
-            margin-left: 15%;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 25px;
-        }
-        .image-gallery img {
-            /* margin-left: 10%; */
-            width: 100%;
-            max-width: 400px;
-            border-radius: 18px;
-        }
-        .description {
-            margin-top: 10px;
-            line-height: 1.6;
-        }
-        .audio-gallery {
-            margin-top: 20px;
-        }
-        audio {
-            display: block;
-            margin-top: 10px;
-            width: 100%;
-        }
-        .video-section {
-            margin-top: 20px;
-            width: 50%;
-        }
-        footer {
-            background-color: #006400;
-            color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        } */
+
+        /* Footer styles */
+        /* footer {
             text-align: center;
             padding: 10px 0;
-            margin-top: 20px;
-        }
+            background: #003366;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        } */
     </style>
 </head>
 <body>
@@ -74,6 +73,16 @@
     <header>
         <h1>Football Fanatics</h1>
         <p>The Ultimate Destination for Football Lovers</p>
+        
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="playlists.html">Playlists</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- Main Content Section -->
@@ -83,7 +92,6 @@
             <p>Football, also known as soccer, is one of the most popular sports worldwide, known for its passionate fans and thrilling moments. From famous leagues like the English Premier League to international tournaments like the FIFA World Cup, football brings together people of all ages and cultures. Here, we celebrate the spirit of the game with some iconic images and songs dedicated to the world of football.</p>
         </section>
 
-        
         <h2>Iconic Football Moments</h2>
         <section class="image-gallery">
             <img src="f1.jpeg" alt="Football Image 1">

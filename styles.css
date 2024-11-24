@@ -1,0 +1,225 @@
+/* styles for main index.html page and other pages */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    /* color: #333; */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #b1e896;
+    /* background-color: #3A861E; */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+nav {
+    background-color: #3A861E;
+    box-shadow: 0 2px 5px #b1e896;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+nav ul li a:hover {
+    background-color: #b1e896;
+    transform: scale(1.05);
+}
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+h1, h2 {
+    color:#3A861E
+    /* color: #C3DA57; */
+}
+.image-gallery {
+    margin-left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.image-gallery img {
+    /* margin-left: 10%; */
+    width: 100%;
+    max-width: 400px;
+    border-radius: 18px;
+}
+.description {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+.audio-gallery {
+    margin-top: 20px;
+}
+audio {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+}
+.video-section {
+    margin-top: 20px;
+    width: 50%;
+}
+
+/* _____________________________________________________________________ */
+
+/* style for articles.html */
+.article {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-left: 5px solid #3A861E;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.article h3 {
+    margin-top: 0;
+}
+.article p {
+    margin-bottom: 10px;
+}
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #3A861E;
+    text-decoration: none;
+    font-weight: bold;
+}
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* _____________________________________________________________________ */
+
+/* styles for upcoming-games.html */
+.game h3 {
+    font-size: 1.5em;
+    color: #3A861E;
+    margin: 20px 0 10px;
+}
+.game a {
+    color: #1F4529;
+    text-decoration: none;
+}
+.game a:hover {
+    text-decoration: underline;
+    color: #006400;
+}
+.upcoming
+{
+    text-decoration: underline;
+}
+.game img {
+    /* margin-left: 10%; */
+    width: 100%;
+    max-width: 400px;
+    border-radius: 18px;
+}
+/* _____________________________________________________________________ */
+
+/* styles for football-history.html */
+
+.origins h3{
+    font-size: 1.5em;
+    color: #3A861E;
+    margin: 20px 0 10px;
+}
+.origins img {
+    /* margin-left: 10%; */
+    width: 100%;
+    max-width: 400px;
+    border-radius: 18px;
+}
+
+/* _____________________________________________________________________ */
+
+/* styles for top-players.html */
+
+.legends h3{
+    font-size: 1.5em;
+    color: #3A861E;
+    margin: 20px 0 10px;
+}
+.legends img {
+    /* margin-left: 10%; */
+    width: 100%;
+    max-width: 400px;
+    border-radius: 18px;
+}
+
+/* _____________________________________________________________________ */
+
+/* styles for fifa-world-cup.html */
+
+.history img {
+    /* margin-left: 10%; */
+    width: 100%;
+    max-width: 400px;
+    border-radius: 18px;
+}
+
+/* _____________________________________________________________________ */
+
+
+.playlist {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.song-card {
+    background: #e4fcd8;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px #b1e896;
+    text-align: center;
+}
+
+.song-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.song-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #006400;
+}
+
+.song-card audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+/* style for footer */
+footer {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
